@@ -1,0 +1,663 @@
+
+/* Header1 40px
+Header2 35px
+Header3 30px */
+
+
+*{
+  box-sizing: border-box;
+  
+  
+}
+
+
+body {
+    background-color:  #002244;  
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-size: 1.1rem;
+    line-height: 1.76;
+
+}
+
+
+a{
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+  h3{
+  
+  text-align: center;
+    color:orange;
+    text-decoration: underline;
+    text-underline-offset:10px;
+   
+
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+
+
+
+/* Styles for the navigation bar */
+
+header {
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  /* margin:  0 10rem 0 10rem; */
+  background-color: #002244;
+  
+
+   
+}
+
+
+nav {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    row-gap: 5rem;
+    
+    
+  }
+
+ 
+
+  .logo {
+     /* text-align: center; */
+    font-size: 2.7rem;
+    font-weight: bold;
+    width: 1.5rem;
+    margin: 0 auto;
+  
+   
+    
+  }
+
+ 
+
+  /* Apply the animation only when hovering over the element */
+
+
+
+ .logo a{
+     color: orange;
+     
+ }
+
+ 
+   header .letter1 {
+      position: absolute;     
+    }
+
+   .letter2{
+      margin-left: 1rem;
+      
+    } 
+
+    
+
+  .menu {
+    display: flex;   
+    margin: 0;
+    padding: 0;
+    column-gap: 3rem;
+  }
+
+  .menu-menu{
+    display: flex; justify-content: space-between;  
+    margin: 0;
+    padding: 0;
+    column-gap: 3rem;
+  }
+   
+  
+
+  .menu li a {
+    color:orange;
+   
+  }
+
+  .menu .myResume a{
+    background-color: orange;
+    color: #002244;
+    padding: 0.35rem;
+    border-radius: 2px;
+  }
+
+  
+
+  nav  .menu  li a:hover{
+    background:white;
+    color: #0A1828;
+    padding: 0.2rem;
+  
+  }
+
+  i{
+    font-size: 25px;
+  }
+
+
+  /* Styles for the menu toggle button */
+  .fa-bars{
+    display: none;
+    margin-top: 1.5rem;
+     cursor: pointer;
+    color: orange;
+  }
+
+  .fa-times{
+    display: none;
+    margin-top: 1.5rem;
+     cursor: pointer;
+    color: orange;
+  }
+
+
+
+    
+
+
+  main{
+    margin-top: 1rem;
+  }
+
+  /* styles for the first section */
+
+  
+
+  .homepage{
+   
+    background-image: linear-gradient(to bottom,  rgba(0, 34, 69, 0.8) ,  rgba(0, 34, 68,0.8))  ,  url(./images/ezgif.com-webp-to-jpg\ \(2\)\ .jpg);
+    background-size:cover;
+    background-position: center;
+    margin-top: 1%;  
+   text-align: center;
+  
+  }
+
+  
+
+  .homepage section{
+     padding: 10rem;
+     
+
+  }
+
+  .homepage h1{
+    text-transform: uppercase;   
+    font-weight: lighter;
+   
+    
+  }
+
+  .homepage section p{
+    font-family: 'Kaushan Script', cursive;
+    margin: 0 auto;
+   margin-top: 5%;
+   font-size: 1.4rem; 
+   font-weight: 500;
+  
+  
+  
+  }
+  
+  .homepage section span{
+    display: inline-block;
+    font: 2rem;
+ 
+   
+  }
+
+   .homepage  section  h2 .gbenga{
+    color: orange;  
+   
+  }
+ 
+
+  .icon {
+    font-weight: bold;
+  }
+
+ 
+    /*Styling for PROJECTS section*/
+  .projectsSection{
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+    color:#002244;
+    row-gap: 2.5rem;
+    
+  }
+  
+
+  .projectsSection section{
+    background-color: #042e59;
+    flex-basis: 30%;
+    padding: 1rem;
+    text-align: justify;
+    color: rgb(234, 230, 230);
+    border-radius: 1rem;
+    height: 60%;
+    font-size: 1rem;
+    
+  }
+
+
+  .projectsSection section h4{
+    text-align: center;
+   border-bottom: 3px solid orange;
+    
+  }
+
+  .projectsSection img{
+   display: block;
+   width: 80%;
+   height: 30%;
+   margin:   0 auto;
+   border-radius: 0.5rem;
+  }
+
+  .projectsSection section p{
+   text-align: center;
+   color:rgb(230, 226, 226);
+   
+  }
+ 
+
+  .projectsSection section .view {
+    width: 3.3rem;
+     display: block;
+     /* padding: 0.1rem 1.2rem; */
+     box-shadow: #0b0d0e 4px 4px 0px;
+     border-radius: 0.2rem;
+     color: white;
+     background-color: rgb(223, 171, 73);
+     transition: transform 200ms, box-shadow 200ms;
+     margin: 0 auto;
+    
+  }
+
+  .projectsSection section .view  a{
+    display: block;
+    color: rgb(234, 230, 230);
+    font-size: large;
+    text-align: center;
+    
+    
+   
+  }
+  
+  .projectsSection section .view:hover{
+    transform: translateX(4px) translateY(4px);
+   box-shadow: none;
+  }
+
+
+
+
+  /*About Me section styling*/
+  .aboutMeSection{
+    padding: 1.5rem 0;
+    background-color: #042e59;
+    text-align: justify;
+  }
+
+  .aboutMeSection:hover{
+    background-image: linear-gradient(45deg, rgba(4, 46, 89, 0.44), rgba(4, 46, 89, 0.44)), url('./images/me.jpg');
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   
+  }
+
+  .myTechStacks{
+    margin: 1rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .myTechStacks img{
+    height: 20%;
+    /* flex-basis: 18%; */
+  }
+
+  .myTechStacks img:hover{
+    border-radius: 50%;
+    background-color: orange;
+    padding:0.5rem;
+  }
+
+  .about{
+    width: 54%;
+    margin: 0 auto;
+  }
+ .about.two{
+  margin-top: 1rem;
+ }
+
+ .contact{
+  margin-top: 1rem;
+  background-color: #042e59;
+ }
+ .contact h3{
+  padding-top:1rem;
+ }
+
+ .contact p{
+   text-align: center;
+ 
+ }
+
+ .contact-info a{
+  color: white;
+
+ }
+
+ .contact-info a:hover{
+  text-decoration: underline;
+  text-underline-offset: 7px;
+ }
+
+ form {
+ 
+  max-width: 40rem;
+  margin: 0 auto;
+  height: 30rem;
+}
+
+input[type = "text"],
+input[type = "email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 2rem;
+  border: 1px solid #002244;
+  border-radius: 4px;
+  
+}
+
+input[type = "submit"]{
+  
+  color: white;
+  background-color:orange;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+ 
+ 
+}
+
+input[type ="submit"]:hover {
+  background-color: rgb(199, 150, 59);
+}
+
+.contact div{
+  text-align: center;
+  line-height: 0.8;
+  padding-bottom: 4rem;
+ 
+}
+
+
+  
+
+
+
+  #footer{
+   height: 10rem;
+    padding: 4rem;
+
+  }
+
+ 
+  #footer .menu-menu{
+   justify-content: center;
+  }
+
+  #footer .menu-menu{
+    gap: 0.5rem;
+  }
+  
+
+  #footer i{
+    gap: 20%;
+    color: orange;
+    padding: 0.8rem;
+    border-radius: 50%;
+    border: 3px solid #042e59;
+  }
+
+  #footer i:hover{
+    color:whitesmoke;
+
+  }
+
+  #footer section{
+    display: flex;
+    justify-content: center;
+  }
+
+  #footer span {    
+    margin-top: 2.7%;
+    padding: 0.05rem 1.2rem;
+     border-radius: 0.2rem;
+     font-size: small;
+     
+    
+     
+  }
+
+  #footer span a{
+    color: whitesmoke;
+  }
+
+  #footer span:hover{
+    background-color: rgba(255, 165, 0, 0.2);
+  }
+   
+
+/*Styles for responsive design*/
+
+
+@media only screen and (max-width: 768px) {
+  body:not(.logotoggleButton){
+    font-size: 1rem;
+  }
+  
+  .fa-bars{
+    display: block;
+     
+
+}
+
+.fa-times{
+  display: block;
+  font-size: small;
+  
+}
+
+.menu{
+ 
+  display: none;
+  flex-direction: column;
+   align-items: center;
+  row-gap: 3rem;
+  position: fixed;
+  top: 5rem;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #042e59;
+}
+
+/* .menu.active{
+ 
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  row-gap: 3rem;
+  position: fixed;
+  top: 5rem;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #042e59;
+} */
+
+.menu > li{
+  margin-top: 1.5rem;
+}
+
+.menu.active{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.logotoggleButton {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2rem;
+ 
+  
+}
+
+.logo{
+  margin-left: -0.2rem;  
+ }
+
+
+body{
+/* margin: 0 2%; */
+}
+
+.homepage{
+  height: 15rem;
+ 
+}
+
+.homepage section{
+  padding: 3rem;
+
+}
+
+.homepage h2{
+  margin-top: 3rem;
+}
+
+.homepage p{
+display: none;
+
+}
+
+.projectsSection{
+  flex-direction: column;
+
+}
+
+.projectsSection section{
+  height: 4rem;
+}
+
+.about{
+  width: 85%;
+
+}
+.myTechStacks img {
+ width: 25%;
+}
+
+.contact{
+  width: 90%;
+margin: 0 auto;
+}
+
+.contact{
+  padding: 0 0.5rem;
+}
+
+ form input[type = "submit"]{
+  display: block;
+  margin: 0 auto;
+
+}
+
+.contact-info{
+  margin-top: -2rem;
+}
+
+.contact-info *{
+  line-height: 2;
+}
+
+nav  .menu  li a:hover{
+  background: none; 
+   color: orange;
+}
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+  
+
+
+.homepage{
+  height: 20rem;
+}
+
+
+.homepage p{
+ display: block;
+
+}
+
+.projectsSection{
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.projectsSection section{
+  height: 27rem;
+  flex-basis: 45%;
+}
+
+
+
+.myTechStacks img {
+  width: 20%;
+ }
+
+}
+
+   
